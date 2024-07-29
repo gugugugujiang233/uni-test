@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  anvil:
+    build: .
+    ports:
+      - "8545:8545"
+    platform: linux/amd64
